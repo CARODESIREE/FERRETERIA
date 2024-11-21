@@ -6,17 +6,13 @@
 }
 
 
-caro
-
-
-
-
 /* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
   
   body {
     font-family: Arial, sans-serif;
@@ -34,12 +30,16 @@ caro
     align-items: center;
     padding: 0 20px;
   }
-  
+
   header .logo {
     font-size: 24px;
     font-weight: bold;
   }
-  
+
+  header img{
+    height: 50px;
+  }
+
   header nav{
     display: flex;
   }
@@ -58,6 +58,7 @@ caro
   header nav a:hover {
     color: #ff9800;
   }
+
   
   /* Pie de página */
   footer {
@@ -65,6 +66,7 @@ caro
     color: #ff5722;
     text-align: center;
     padding: 20px;
+    margin: 30px 0px 0px 0px;
   }
   
   footer nav ul {
@@ -91,6 +93,7 @@ height: 100vh;
     
 background: url(vender-productos-de-ferreteria.jpg) no-repeat center/cover;
 
+
   }
 
   .hero-content {
@@ -100,14 +103,15 @@ background: url(vender-productos-de-ferreteria.jpg) no-repeat center/cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #ff5722;
+    color:rgb(244, 244, 244);
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3)
+    background-color: rgba(0, 0, 0, 0.5)
   }
+
 
   /* ESTILOS DE LAS IMAGENES */
   
-  .contenedor-animales
+  .contenedor-productos
 { 
     display: flex;
 flex-wrap: wrap;
@@ -117,23 +121,21 @@ min-width: 400px;
 
 }
 
-.animal
+.producto
 { border: 1px solid;
-    background-color: #a5d6a7;
+    background-color: #F4F4F4;
 border-radius: 20px;
 padding: 15px;
 width: 30%;
 
 }
 
-.animal img{
+.producto img{
 
     width: 100%;
     border-radius: 5px;
 }
 
-  
-    
 
 /*estilos de formulario */
 
@@ -152,13 +154,13 @@ width: 30%;
   padding: 10px;
   border-radius: 5px;
   font-size: 16px;
-  border: 1px solid #4caf50;
+  border: 1px solid #232020;
 
 }
 
 .boton{
 padding: 10px;
-background-color: #4caf50;
+background-color: rgb(58, 53, 53);
 color: white;
 border: 1px solid white;
 border-radius: 5px;
@@ -168,4 +170,11 @@ border-radius: 5px;
 .boton:hover{
 
   background-color: #418c3e;
+}
+
+.subtitulo{
+background-color: #3A3535;
+color: #F4F4F4;
+margin: 15px 0px;
+display: block;
 }
