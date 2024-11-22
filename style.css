@@ -36,6 +36,10 @@
     font-weight: bold;
   }
 
+  header img{
+    height: 50px;
+    margin-right: 10px;
+  }
 
   header nav{
     display: flex;
