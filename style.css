@@ -36,9 +36,6 @@
     font-weight: bold;
   }
 
-  header img{
-    height: 50px;
-  }
 
   header nav{
     display: flex;
