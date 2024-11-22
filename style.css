@@ -88,14 +88,12 @@
   }
   
   footer nav ul li a:hover {
-    color: #110e08;
+    color: #ff9800;
   }
   .hero{
 height: 100vh;
     
 background: url(vender-productos-de-ferreteria.jpg) no-repeat center/cover;
-
-
   }
 
   .hero-content {
