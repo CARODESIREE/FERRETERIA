@@ -39,6 +39,8 @@
   header img{
     height: 50px;
     border-radius: 50px;
+
+  
     
   }
 
@@ -177,4 +179,15 @@ background-color: #3A3535;
 color: #F4F4F4;
 margin: 15px 0px;
 display: block;
+}
+
+.precio{
+  color:#ff5722;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.anterior{
+  color: grey;
+  text-decoration: line-through;
 }
