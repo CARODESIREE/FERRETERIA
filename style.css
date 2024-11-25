@@ -5,6 +5,9 @@
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
 
 /* Reset básico */
 * {
@@ -39,9 +42,6 @@
   header img{
     height: 50px;
     border-radius: 50px;
-
-  
-    
   }
 
   header nav{
@@ -61,6 +61,20 @@
   
   header nav a:hover {
     color: #ff9800;
+  }
+
+  .btn{
+    background-color: #ff9800;
+    color: #F4F4F4;
+    border:#ff5722 solid 1px;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 3px;
+  }
+
+  .btn:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
   }
 
   
@@ -96,6 +110,7 @@
 height: 100vh;
     
 background: url(vender-productos-de-ferreteria.jpg) no-repeat center/cover;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   }
 
   .hero-content {
@@ -129,6 +144,7 @@ min-width: 400px;
 border-radius: 20px;
 padding: 15px;
 width: 30%;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -136,6 +152,7 @@ width: 30%;
 
     width: 100%;
     border-radius: 5px;
+    height: 160px;
 }
 
 
@@ -171,7 +188,7 @@ border-radius: 5px;
 }
 .boton:hover{
 
-  background-color: #418c3e;
+  background-color: #ff9800;
 }
 
 .subtitulo{
@@ -179,6 +196,8 @@ background-color: #3A3535;
 color: #F4F4F4;
 margin: 15px 0px;
 display: block;
+padding: 2%;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .precio{
@@ -187,7 +206,29 @@ display: block;
   margin: 10px 0px;
 }
 
+.precio:hover{
+  transform: scale(1.1);
+}
+
 .anterior{
   color: grey;
   text-decoration: line-through;
+}
+
+.comprar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.comprar button{
+  background-color:#958686;
+  border: #958686 solid 1px;
+  padding: 7%;
+  border-radius: 3px;
+  color: #F4F4F4;
+  
+}
+
+.comprar:hover{
+  transform: scale(1.3);
 }
