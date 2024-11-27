@@ -241,6 +241,15 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 
 .seccion {
   font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+#informacion{
+background-color: #F4F4F4;
+border-radius: 10px;
+}
 
+.seccion p{
+  padding: 15px;
 }
   
