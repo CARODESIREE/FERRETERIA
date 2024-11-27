@@ -1,7 +1,6 @@
 :root{ --color-p: #ff5722;
   --color-s:#2D4059 ;
-  --fuente-p : Arial;
-
+  --fuente-p : "Roboto", sans-serif;
 
 }
 
@@ -18,7 +17,7 @@ html{
 
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: var(--fuente-p);
     background-color: #ff5722;
   }
   
@@ -34,9 +33,16 @@ html{
     padding: 0 20px;
   }
 
+  #inicio{
+display: flex;
+align-items: center;
+
+
+  }
   header .logo {
     font-size: 24px;
     font-weight: bold;
+
   }
 
   header img{
@@ -232,3 +238,9 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 .comprar:hover{
   transform: scale(1.3);
 }
+
+.seccion {
+  font-family: "Roboto", sans-serif;
+
+}
+  
