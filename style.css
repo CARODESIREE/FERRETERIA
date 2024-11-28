@@ -70,6 +70,7 @@ align-items: center;
   }
 
   .btn{
+    
     background-color: #ff9800;
     color: #F4F4F4;
     border:#ff5722 solid 1px;
@@ -120,13 +121,13 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   }
 
   .hero-content {
-
+font-size: xx-large;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:rgb(244, 244, 244);
+    color:white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5)
   }
