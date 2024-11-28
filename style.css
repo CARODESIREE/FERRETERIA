@@ -158,7 +158,6 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 
     width: 100%;
     border-radius: 5px;
-    height: 160px;
 }
 
 
@@ -242,7 +241,8 @@ box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 .seccion {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: 10px;
+  margin: 40px;
+
 }
 #informacion{
 background-color: #F4F4F4;
