@@ -133,10 +133,12 @@
     <div>
       <section id="contacto" class="seccion">
         <h2 class="subtitulo">Contacto</h2>
-        <form class="formulario">
-            <input type="text" placeholder="Nombre" class="input">
-            <input type="email" placeholder="Correo electrónico" class="input">
-            <textarea placeholder="Mensaje" class="textarea"></textarea>
+        <form action="https://formspree.io/f/xrbgydvk"
+        method="POST"class="formulario">
+          
+            <input name="Nombre" type="text" placeholder="Nombre" class="input">
+            <input name="Contraseña" type="email" placeholder="Correo electrónico" class="input">
+            <textarea name="Mensaje" placeholder="Mensaje" class="textarea"></textarea>
             <button type="submit" class="boton">Enviar</button>
         </form>
     </section>
